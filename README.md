@@ -1,4 +1,4 @@
-
+# Project Overview
 
 The bitcrusher project processes audio files by reducing their bit depth and effective sampling resolution, creating a distorted sound effect. The signal chain involves reading a WAV file, applying quantization to reduce the bit depth, and then reducing the effective sampling resolution by retaining every rate_factor-th sample and holding it across the following samples. The bit_depth parameter controls how many bits are used to represent each audio sample, while the rate_factor controls effective time resolution and creates the bitcrusher texture both of which contribute to the overall degradation of the audio quality.
 
